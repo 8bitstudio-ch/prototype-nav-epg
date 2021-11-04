@@ -1,0 +1,15 @@
+.dropdown > a {
+  color: #222;
+  font-size: 18px;
+  padding: 1.5em;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown__submenu {
+  left: 0; right: 20%;
+  position: absolute;
+  background: #f2f2f2;
+  border: 1px solid #e5e5e5;
+  display: flex;
+}
