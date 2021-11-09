@@ -45,6 +45,7 @@ export default {
   .mainHeader {
     display: flex;
     align-items: center;
+    position: relative;
 
     & > div {
       margin-right: 2rem;
@@ -52,7 +53,7 @@ export default {
   }
   nav {
     display: flex;
-    position: relative;
+    
   }
 
   ul {
