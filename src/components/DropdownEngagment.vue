@@ -9,6 +9,7 @@
             <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Devenir bénévole</a></li>
             <li><NavTab panel="formations">Formations</NavTab></li>
             <li><NavTab panel="enfants-jeunes">Enfants et jeunes</NavTab></li>
+            <li><NavTab panel="groupes-paroissiaux">Groupes paroissiaux</NavTab></li>
             <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Legs et testaments</a></li>
             <li>
               <a href="#" @mouseover="this.emitter.emit('closeTabPanels')">
@@ -36,6 +37,18 @@
               <li><a href="#">post-KT 17 à 22ans</a></li>
               <li><a href="#">LAB</a></li>
               <li><a href="#">Étudiants à l'université</a></li>
+            </ul>
+          </TabPanel>
+
+          <TabPanel title="groupes-paroissiaux">
+            <ul>
+              <li><a href="#">Prière et spiritualité</a></li>
+              <li><a href="#">Enfance et jeunesse</a></li>
+              <li><a href="#">Formations</a></li>
+              <li><a href="#">Musique et culture</a></li>
+              <li><a href="#">Entraide et solidarité</a></li>
+              <li><a href="#">Environnement</a></li>
+              <li><a href="#">Autre</a></li>
             </ul>
           </TabPanel>
         </template>

@@ -7,7 +7,7 @@
     </h1>
 
     <nav>
-      <MainNavItem>Cultes &amp; Evénements</MainNavItem>
+      <DropdownEvents title="evenement" />
       <MainNavItem>Actualités</MainNavItem>
       <DropdownActivities title="activities" />
       <MainNavItem>Qui sommes-nous</MainNavItem>
@@ -18,6 +18,7 @@
 <script>
 import UniversalNav from '@/components/UniversalNav.vue'
 import MainNavItem from '@/components/MainNavItem.vue'
+import DropdownEvents from './DropdownEvents.vue'
 import DropdownActivities from '@/components/DropdownActivities.vue'
 
 export default {
@@ -25,7 +26,8 @@ export default {
   components: {
     UniversalNav,
     MainNavItem,
-    DropdownActivities
+    DropdownActivities,
+    DropdownEvents
   }
 }
 </script>
