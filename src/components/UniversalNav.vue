@@ -5,16 +5,16 @@
     </a>
     <ul>
       <li>
-        <a href="#">Événements</a>
+        <a href="#">Cultes</a>
       </li>
       <li>
-        <a href="#">Prier et méditer</a>
+        <a href="#">Spiritualité</a>
       </li>
       <li>
-        <a href="#">S'engager</a>
+        <a href="#">Activités</a>
       </li>
       <li>
-        <a href="#">Préparer une célébration</a>
+        <a href="#">Cérémonies</a>
       </li>
     </ul>
   </div>

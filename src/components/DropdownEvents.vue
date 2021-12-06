@@ -1,14 +1,15 @@
 <template>
   <div class="dropdown" @mouseover="openSubmenu" @mouseleave="closeSubmenu">
-    <MainNavItem>Événements</MainNavItem>
+    <MainNavItem>Cultes</MainNavItem>
     
     <div v-show="isOpen" class="dropdown__submenu">
       <Tabs>
         <template v-slot:navTabs>
           <ul class="nav-tabs">
             <li><NavTab panel="cultes">Cultes</NavTab></li>
-            <li><NavTab panel="rencontres">Rencontres</NavTab></li>
-            <li><NavTab panel="enfants">Enfants</NavTab></li>
+            <li><NavTab panel="celebrations">Célébrations</NavTab></li>
+            <li><NavTab panel="musical">Cultes musicaux</NavTab></li>
+            <li><NavTab panel="allages">Cultes tous âges</NavTab></li>
           </ul>
         </template>
 
@@ -60,7 +61,7 @@
 
             <Button>Tous les cultes</Button>
           </TabPanel>
-          <TabPanel title="rencontres">
+          <TabPanel title="celebrations">
             <div class="date">
               <h2 class="date__title">Lun 1 Nov</h2>
               <div class="date__events">
@@ -100,9 +101,9 @@
               </div>
             </div>
 
-            <Button>Tous les événements</Button>
+            <Button>Toutes les célébrations</Button>
           </TabPanel>
-          <TabPanel title="enfants">
+          <TabPanel title="musical">
             <div class="date">
               <h2 class="date__title">Lun 1 Nov</h2>
               <div class="date__events">
@@ -147,7 +148,58 @@
               </div>
             </div>
 
-            <Button>Tous les événements</Button>
+            <Button>Tous les cultes musicaux</Button>
+          </TabPanel>
+          <TabPanel title="allages">
+            <div class="date">
+              <h2 class="date__title">Lun 1 Nov</h2>
+              <div class="date__events">
+                <div class="event">
+                  <h3 class="event__title">Nouvelle période Agenda Réformés</h3>
+                  <p class="event__infos">Lieu, heure</p>
+                </div>
+                <div class="event">
+                  <h3 class="event__title">Groupe de méditation chrétienne</h3>
+                  <p class="event__infos">Lieu, heure</p>
+                </div>
+                <div class="event">
+                  <h3 class="event__title">Atelier couture</h3>
+                  <p class="event__infos">Lieu, heure</p>
+                </div>
+                <div class="event">
+                  <h3 class="event__title">Petit-Lancy/Saint-Luc : Groupe féminin</h3>
+                  <p class="event__infos">Lieu, heure</p>
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <h2 class="date__title">Mar 2 Nov</h2>
+              <div class="date__events">
+                <div class="event">
+                  <h3 class="event__title">Office du milieu du jour</h3>
+                  <p class="event__infos">Lieu, heure</p>
+                </div>
+                <div class="event">
+                  <h3 class="event__title">Célébration oecuménique kermesse des paroisses</h3>
+                  <p class="event__infos">Lieu, heure</p>
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <h2 class="date__title">Mer 3 Nov</h2>
+              <div class="date__events">
+                <div class="event">
+                  <h3 class="event__title">Office du milieu du jour</h3>
+                  <p class="event__infos">Lieu, heure</p>
+                </div>
+                <div class="event">
+                  <h3 class="event__title">Culte, Sainte cène</h3>
+                  <p class="event__infos">Lieu, heure</p>
+                </div>
+              </div>
+            </div>
+
+            <Button>Tous les cultes tous âges</Button>
           </TabPanel>
         </template>
       </Tabs>

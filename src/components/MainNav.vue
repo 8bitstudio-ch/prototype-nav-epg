@@ -6,8 +6,10 @@
     <div>
       <ul>
         <li><a href="#">Église protestante de Genève</a></li>
-        <li><a href="#">Paroisses</a></li>
+        <li><a href="#">Paroisses et Espaces</a></li>
+        <li><a href="#">Aumôneries</a></li>
         <li><a href="#">Actualité</a></li>
+        <li><a href="#">Soutenir</a></li>
       </ul>
       <nav>
         <DropdownEvents title="evenement" />

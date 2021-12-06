@@ -1,15 +1,17 @@
 <template>
   <div class="dropdown" @mouseover="openSubmenu" @mouseleave="closeSubmenu">
-    <MainNavItem>Préparer une célébration</MainNavItem>
+    <MainNavItem>Cérémonies</MainNavItem>
     
     <div v-show="isOpen" class="dropdown__submenu">
       <Tabs>
         <template v-slot:navTabs>
           <ul class="nav-tabs">
             <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Baptème</a></li>
+            <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Confirmation</a></li>
             <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Mariage</a></li>
-            <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Funérailles</a></li>
-            <li><NavTab panel="locations">Louer une salle</NavTab></li>
+            <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Service funèbre </a></li>
+            <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Liturgie</a></li>
+            <!--<li><NavTab panel="locations">Louer une salle</NavTab></li>-->
           </ul>
         </template>
 
