@@ -8,7 +8,7 @@
           <ul class="nav-tabs">
             <li><NavTab panel="formations">Formations</NavTab></li>
             <li><NavTab panel="catechese">Catéchèse</NavTab></li>
-            <li><NavTab panel="groupes-paroissiaux">Rencontres</NavTab></li>
+            <!--<li><NavTab panel="groupes-paroissiaux">Rencontres</NavTab></li>-->
             <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Accompagnement</a></li>
           </ul>
         </template>

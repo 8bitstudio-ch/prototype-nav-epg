@@ -10,7 +10,7 @@
             <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Confirmation</a></li>
             <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Mariage</a></li>
             <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Service funèbre </a></li>
-            <li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Liturgie</a></li>
+            <!--<li><a href="#" @mouseover="this.emitter.emit('closeTabPanels')">Liturgie</a></li>-->
             <!--<li><NavTab panel="locations">Louer une salle</NavTab></li>-->
           </ul>
         </template>

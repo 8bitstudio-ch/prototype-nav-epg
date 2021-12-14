@@ -8,7 +8,6 @@
           <ul class="nav-tabs">
             <li><NavTab panel="predications">Prédications</NavTab></li>
             <li><NavTab panel="prieres">Prières</NavTab></li>
-            <li><NavTab panel="textes-spirituels">Textes spirituels</NavTab></li>
             <li>
               <a href="#">
                 Je cherche Dieu

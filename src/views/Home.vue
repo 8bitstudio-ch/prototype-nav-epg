@@ -29,7 +29,6 @@
         <ul>
           <li><a href="#">Prédications</a></li>
           <li><a href="#">Prières </a></li>
-          <li><a href="#">Textes spirituels</a></li>
           <li><a href="#">Je cherche Dieu</a></li>
         </ul>
       </div>
@@ -38,8 +37,7 @@
         <ul>
           <li><a href="#">Formations</a></li>
           <li><a href="#">Catéchèse</a></li>
-          <li><a href="#">Rencontres</a></li>
-          <li><a href="#">Accompagnement</a></li>
+          <li><a href="#">Accompagnements</a></li>
         </ul>
       </div>
       <div>
@@ -49,7 +47,7 @@
           <li><a href="#">Confirmation</a></li>
           <li><a href="#">Mariage</a></li>
           <li><a href="#">Service funèbre</a></li>
-          <li><a href="#">Liturgie</a></li>
+          <!--<li><a href="#">Liturgie</a></li>-->
         </ul>
       </div>
     </div>
